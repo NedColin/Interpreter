@@ -232,7 +232,7 @@ static NSInteger const kCSNotificationViewEmptySymbolViewTag = 666;
             if (self.parentNavigationController) {
                 for (UIView* view in self.parentNavigationController.view.subviews) {
                     if ([view isKindOfClass:[UINavigationBar class]]) {
-                        [self.parentNavigationController.view insertSubview:self belowSubview:view];
+//                        [self.parentNavigationController.view insertSubview:self belowSubview:view];
                     }
                 }
             } else {
